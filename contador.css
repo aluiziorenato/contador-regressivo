@@ -1,0 +1,51 @@
+body {
+ background-image: url("./XrgL6.jpg");
+ background-position: center;
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+h1 {
+    display: inline-block;
+    position: absolute;   
+    margin-left: 300px;
+    width: auto;
+    top: 100px; 
+    font-size: 40px;
+
+}
+
+.contador {
+    display: inline-block;
+    position: absolute;   
+    margin-left: 200px;
+    width: auto;
+    top: 200px;
+    border: 1px solid #000000;    
+    font-size: 25px;
+}
+
+td {
+    padding: 3em;
+}
+
+.mostrador {
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.contagem {
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    color: gray;
+}
+
+#dia, #hora, #minuto, #segundo {
+
+    border: 1px solid black;
+    padding: 0;
+    margin: 1em;
+}
